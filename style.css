@@ -1,0 +1,53 @@
+/*Regular*/
+@font-face{
+    font-family: 'alegreya';
+    src: url(font/Alegreya-Regular.ttf);
+    font-weight: normal;
+}
+
+/*Semi Bold*/
+@font-face{
+    font-family: 'alegreya';
+    src: url(font/Alegreya-SemiBold.ttf);
+    font-weight: 600;
+}
+
+/*Bold*/
+@font-face{
+    font-family: 'alegreya';
+    src: url(font/Alegreya-Bold.ttf);
+    font-weight: bold;
+}
+
+*{
+    font-family: 'alegreya';
+    color: whitesmoke;
+    background-color: #252422;
+}
+
+hr{
+    width: 98%;
+}
+
+h2{
+    font-family: 'alegreya';
+    font-weight: 600;
+    margin-left: 3%;
+}
+
+h3{
+    font-family: 'alegreya';
+    font-weight: normal;
+    margin-left: 1%;
+}
+
+p{
+    margin-left: 2%;
+    font-size: large;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
